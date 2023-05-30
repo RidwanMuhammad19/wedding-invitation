@@ -8,7 +8,7 @@ function StoryItem({ image, title, date, description, isInverted }) {
       <div className="timeline-panel">
         <div className="timeline-heading">
           <h3 className="timeline-title">{title}</h3>
-          <span className="date">{date}</span>
+          {/* <span className="date">{date}</span> */}
         </div>
         <div className="timeline-body">
           <p>{description}</p>

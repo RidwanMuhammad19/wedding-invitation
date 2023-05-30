@@ -6,24 +6,24 @@ import ImgNdodokLawang from '@assets/images/p-ndodok-lawang.jpg';
 
 export const stories = [
   {
-    title: 'Jumpa Pertama ',
+    title: 'Komunikasi Pertama ',
     date: '10 Oktober 2015',
     description:
-      'Pertama kali kami dipertemukan di sebuah acara malam keakraban di kampus Universitas Dian Nuswantoro. Sebagai seorang mahasiswa baru, kala itu Dinda melihat Indra sedang sibuk memegang megaphone (toa) di tengah hiruk pikuk acara. Belum ada sesuatu yang spesial, kala itu justru Dinda melihat Indra banyak menerima surat pink (tanda kagum) dari teman sesama mahasiswa barunya.',
+      'Pertama kali kita dipertemukan pada sebuah organisasi kampus yang bernama Forum Asisten, Kala itu kami sedang ada test wawancara untuk menjadi pengurus forum asisten yang dimana pada saat itu saya sudah menunggu sekian lama tetapi belum terpanggil-panggil juga padahal pada saat itu kebetulan juga ada jadwal turnamen futsal untuk pertama kali di kampus, kemudian Ridwan memutuskan bergegas untuk menjalani pertandingan terlebih dahulu dan pada saat itu juga pertama kali Dewi mengingatkan Ridwan datang kembali ke kampus untuk melakukan wawancara',
     image: '',
   },
   {
-    title: 'Kembali Berjumpa',
+    title: 'Mulai Komunikasi Intensif',
     date: '9 September 2017',
     description:
-      'Konferensi Future Leader Summit 2017 kembali mempertemukan mereka. Dinda sebagai peserta dan Indra sebagai panitia acara. Mulai dari saling sapa, mereka berdua tumbuh perasaan saling ingin mengenal lebih dalam. Seusai acara, Indra memberanikan diri untuk membangun komunikasi dengan Dinda. Dari pesan singkat pertama yang dikirimnya, Indra dan Dinda mulai dekat dan menjadi lebih sering mengirim kabar. ',
+      'Forum Asisten merupakan tempat mereka saling berinteraksi secara intensif. Berkuliah dan menjadi asisten merupakan aktivitas rutin yang kita lakukan, dan pada saat itu banyak aktivitas yang mereka lakukan bersama. sedikit demi sedikit rasa itu muncul tanpa kita sadari.',
     image: ImgKembaliBerjumpa,
   },
   {
     title: 'Kisah Kasih di Kampus',
     date: 'Oktober 2017 - 2018',
     description:
-      'Sebagai sepasang mahasiswa dan mahasiswi, Dinda dan Indra memilih untuk mengisi kisah kasih di kampusnya dengan mengikuti berbagai kompetisi bersama. Kala itu, Dinda adalah mahasiswi Ilmu Komunikasi dan Indra adalah mahasiswa Teknik Informatika. Merupakan kolaborasi yang pas jika mengikuti kompetisi teknologi, Indra berperan sebagai seorang programmer dan Dinda sebagai seorang content development. Dinda dan Indra pernah membuat aplikasi Ayo Toba (Aplikasi Pariwisata Danau Toba) yang diajukan dalam kompetisi IT FEST Universitas Sumatera Utara di awal tahun 2018.',
+      'Pada saat itu sebagai mahasiswa dan mahasiswi mereka menjalin hubungan dekat, menjadi support sistem satu sama lain dalam segala hal, di sisa-sisa waktu semester akhir mereka memiliki keinginan untuk bisa lulus dan wisuda di periode yang sama, perlahan demi perlahan skripsi mulai mereka susun, Grahatama Perpustakaan menjadi saksi perjuangan mereka menyelesaikan skripsi. dan alhamdulillah mereka bisa lulus di periode dengan masa studi kurang dari 4 tahun.',
     image: ImgJakartaKroasia,
   },
   {

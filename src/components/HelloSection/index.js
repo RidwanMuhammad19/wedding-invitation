@@ -6,8 +6,13 @@ import Groom from '@assets/images/p-indra.jpg';
 
 import { styWrapper } from './styles';
 
-function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '03 Oktober 2020, HARRIS Hotel Sentraland, Semarang' : 'Sabtu, 03 Oktober 2020';
+function HelloSection({ type }) {
+  let finalSubtitle;
+  if (type === '18') {
+    finalSubtitle = '18 Juni 2023, Perum. Kota Baru Cimuning Blok G no. 2 RT 04 RW 01, Cimuning, Mustikajaya, Bekasi';
+  } else if (type === '25') {
+    finalSubtitle = '25 Juni 2023, Gedung Balai Desa Kraguman, Klaten';
+  }
 
   return (
     <Fragment>
@@ -30,9 +35,9 @@ function HelloSection({ isInvitation }) {
                 <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
-                <h3 className="main-font">Dinda Saraswati, S.I.Kom.</h3>
+                <h3 className="main-font">Muhammad Ridwan, S.Kom.</h3>
                 <p className="parent-name parent-name__top">
-                  Putri Bapak Totok Somo Dipoyono <br />& Ibu Setyo Listiani
+                  Putra Pertama Bapak H Suroyo <br />& Ibu Hj Solikhah Sri Lestari
                 </p>
               </div>
             </div>
@@ -47,16 +52,16 @@ function HelloSection({ isInvitation }) {
                 <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Indra Kusuma, S.Kom.</h3>
+                <h3 className="main-font">Andika Invari Candra Dewi, S.Kom.</h3>
                 <p className="parent-name">
-                  Putra Bapak Bunari <br />& Ibu Suratun
+                  Putri Pertama Bapak Budianto <br />& Ibu Kartini
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {!isInvitation ? (
+      {!type ? (
         <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapper}>
           <div className="container">
             <div className="row">
@@ -81,7 +86,7 @@ function HelloSection({ isInvitation }) {
 }
 
 HelloSection.propTypes = {
-  isInvitation: bool.isRequired,
+  type: bool.isRequired,
 };
 
 export default HelloSection;
