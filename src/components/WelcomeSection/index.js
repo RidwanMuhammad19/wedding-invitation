@@ -7,7 +7,7 @@ import { styWrapper, styHero, styBackground } from './styles';
 
 const DELAY_TIME = 1500;
 
-function WelcomeSection({ guestName, isAnonymGuest, onClickDetail }) {
+function WelcomeSection({ guestName, partner, isAnonymGuest, onClickDetail }) {
   const [loading, setLoading] = useState(false);
   const [alreadyDownloadData, setAlreadyDownloadData] = useState(false);
 
@@ -48,7 +48,7 @@ function WelcomeSection({ guestName, isAnonymGuest, onClickDetail }) {
     return (
       <Fragment>
         <h3 className="to-dearest">To our Dearest</h3>
-        <h2 className="to-dearest-name">{guestName}</h2>
+        <h2 className="to-dearest-name">{`${guestName} ${partner ? `& ${partner}` : ''}`}</h2>
       </Fragment>
     );
   };

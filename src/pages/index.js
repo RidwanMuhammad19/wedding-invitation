@@ -18,6 +18,7 @@ import { useState } from 'react';
 
 function Home({ location }) {
   const to = getQueryValue(location, 'to');
+  const partner = getQueryValue(location, 'partner');
   const type = getQueryValue(location, 'type');
   const [showDetailContent, setShowDetailContent] = useState(false);
   const isAnonymGuest = to === '' && !type;
@@ -33,8 +34,8 @@ function Home({ location }) {
       <Fragment>
         <HelloSection type={type} />
         <WeddingSection type={type} />
-        <LocationSection />
-        <StorySection />
+        <LocationSection type={type} />
+        {/* <StorySection /> */}
         <WishesSection />
         <FooterSection />
       </Fragment>
@@ -45,6 +46,7 @@ function Home({ location }) {
     <MainLayout>
       <WelcomeSection
         guestName={to}
+        partner={partner}
         isAnonymGuest={isAnonymGuest}
         location={location}
         onClickDetail={handleClickDetail}

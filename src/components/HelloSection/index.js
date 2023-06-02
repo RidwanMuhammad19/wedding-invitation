@@ -7,13 +7,6 @@ import Groom from '@assets/images/p-indra.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ type }) {
-  let finalSubtitle;
-  if (type === '18') {
-    finalSubtitle = '18 Juni 2023, Perum. Kota Baru Cimuning Blok G no. 2 RT 04 RW 01, Cimuning, Mustikajaya, Bekasi';
-  } else if (type === '25') {
-    finalSubtitle = '25 Juni 2023, Gedung Balai Desa Kraguman, Klaten';
-  }
-
   return (
     <Fragment>
       <div id="fh5co-couple" css={styWrapper}>
@@ -21,7 +14,6 @@ function HelloSection({ type }) {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font">Assalamualaikum Wr. Wb</h2>
-              <h3 className="sub-title hs">{finalSubtitle}</h3>
               <p className="info">
                 Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk
                 rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan
@@ -61,26 +53,6 @@ function HelloSection({ type }) {
           </div>
         </div>
       </div>
-      {!type ? (
-        <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapper}>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h2 className="main-font">Seputar Covid-19</h2>
-                <p className="info">
-                  Berkaitan dengan kondisi pandemik saat ini, keberlangsungan acara kami mengacu pada pedoman
-                  Kementerian Kesehatan, yaitu memberlakukan pembatasan jarak dan pembatasan jumlah tamu undangan.
-                </p>
-                <p className="info">
-                  Maka dari itu, dengan segala kerendahan hati, kami mohon maaf jika belum bisa mengundang saudara/i
-                  dihari bahagia kami. Sekiranya do'a dari saudara/i sudah lebih dari cukup bagi kami. Semoga kita semua
-                  selalu dalam lindungan Allah SWT. Aamiin ya rabbal allamiin..
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      ) : null}
     </Fragment>
   );
 }

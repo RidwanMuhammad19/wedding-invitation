@@ -11,8 +11,8 @@ function FooterSection() {
                 <small className="block">&copy; 2023 Ridwan & Dewi Wedding. All Rights Reserved.</small>
                 <small className="block">
                   Song by{' '}
-                  <a href="https://www.youtube.com/watch?v=Wu05rtqCNWc" target="_blank" rel="noreferrer">
-                    Payng Teduh - Akad
+                  <a href="https://youtu.be/JVrZLXsUSLA" target="_blank" rel="noreferrer">
+                    Cinta - Vina Panduwinata (Cover)
                   </a>
                 </small>
                 <small className="block">

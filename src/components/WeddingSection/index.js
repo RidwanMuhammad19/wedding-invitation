@@ -3,10 +3,8 @@ import { bool } from 'prop-types';
 
 import WeddingInfoBox from './WeddingInfoBox';
 import { styWrapper } from './styles';
-import { WeddingEvent } from '../../constants';
 
 function WeddingSection({ type }) {
-  let data;
   return (
     <Fragment>
       <div id="fh5co-event" css={styWrapper}>
@@ -22,7 +20,7 @@ function WeddingSection({ type }) {
             </div>
           </div>
           <div className="row">
-            {type && (
+            {type === 'all' && (
               <div className="col-md-10 col-md-offset-1">
                 <WeddingInfoBox
                   title="Akad Nikah"
@@ -30,6 +28,26 @@ function WeddingSection({ type }) {
                   date="Minggu, 18 Juni 2023"
                   description="Rumah Mempelai <br/>Mustika Jaya, Kota Bekasi"
                 />
+                <WeddingInfoBox
+                  title="Unduh Mantu"
+                  time="09:00 WIB"
+                  date="Minggu, 25 Juni 2023"
+                  description="Gedung Balai Desa Kraguman <br/>Jogonalan , Klaten"
+                />
+              </div>
+            )}
+            {type === '18' && (
+              <div className="col-md-8 col-md-offset-4">
+                <WeddingInfoBox
+                  title="Akad Nikah"
+                  time="09:00 WIB"
+                  date="Minggu, 18 Juni 2023"
+                  description="Rumah Mempelai <br/>Mustika Jaya, Kota Bekasi"
+                />
+              </div>
+            )}
+            {type === '25' && (
+              <div className="col-md-8 col-md-offset-4">
                 <WeddingInfoBox
                   title="Unduh Mantu"
                   time="09:00 WIB"
