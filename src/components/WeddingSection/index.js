@@ -23,7 +23,7 @@ function WeddingSection({ type }) {
             {type === 'all' && (
               <div className="col-md-10 col-md-offset-1">
                 <WeddingInfoBox
-                  title="Akad Nikah"
+                  title="Resepsi"
                   time="09:00 WIB"
                   date="Minggu, 18 Juni 2023"
                   description="Rumah Mempelai <br/>Mustika Jaya, Kota Bekasi"
@@ -39,7 +39,7 @@ function WeddingSection({ type }) {
             {type === '18' && (
               <div className="col-md-8 col-md-offset-4">
                 <WeddingInfoBox
-                  title="Akad Nikah"
+                  title="Resepsi"
                   time="09:00 WIB"
                   date="Minggu, 18 Juni 2023"
                   description="Rumah Mempelai <br/>Mustika Jaya, Kota Bekasi"

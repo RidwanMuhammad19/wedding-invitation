@@ -1,15 +1,14 @@
-import Nita from '@assets/images/w-nita.jpg';
-import Zakiy from '@assets/images/w-zakiy.jpg';
-import Moletta from '@assets/images/w-moletta.jpg';
+import Doni from '@assets/images/w-doni.jpg';
+import usamah from '@assets/images/w-usamah.jpg';
+import hesti from '@assets/images/w-hesti.jpg';
+import danang from '@assets/images/w-danang.jpg';
 import hapsari from '@assets/images/w-hapsari.jpg';
 import dianara from '@assets/images/w-dianara.jpg';
 import rahma from '@assets/images/w-rahma.jpg';
 import vela from '@assets/images/w-vela.jpg';
 import iqmala from '@assets/images/w-iqmala.jpg';
 import man from './assets/user.png';
-import ihsan from './assets/w-ihsan.jpg';
 import fajar from './assets/w-fajar.jpg';
-import risa from './assets/w-risa.jpg';
 import puspita from './assets/w-puspita.jpg';
 import kamal from './assets/w-kamal.jpg';
 import ghea from './assets/w-ghea.jpg';
@@ -26,30 +25,30 @@ import jenny from './assets/w-jenny.jpg';
 
 export const wishlist = [
   {
-    name: 'Nita Syarifah',
-    infoName: 'Sahabat SMP Dinda',
+    name: 'Dony Kharisna Putra',
+    infoName: 'Duet RT 15',
     description: `selamat menempuh hidup baru dinda dan mas indra semoga menjadi pasangan teman hidup selamanya sesurga, enjoy your little family always be happy my sweet couple!🥰🤗 amin`,
-    image: Nita,
+    image: Doni,
   },
   {
-    name: 'Ihsan Satriawan',
-    infoName: 'Rekan Kerja Indra, Tokopedia',
-    description: `Selamat menggenapkan separuh Agama ya Indra dan Dinda. Semoga melalui pernikahan ini, kalian bisa saling menguatkan dalam mengarungi kehidupan ini baik dalam kondisi senang ataupun susah. Serta semakin dekat dan konsisten dalam menjalankan perintah Agama.`,
-    image: ihsan,
+    name: 'Usamah Basalamah',
+    infoName: 'Rekan Kerja Sandbox Indonesia Juara',
+    description: `Sugeng tanggap warsa, Mas Ridwan, Mbak Dika, rumiyin kula nganggep panjenengan kaliyan Mbak menika namung kekancan, nggih wonten raos-raosipun tekan gang. Mugi-mugi dados sakinah mawaddah warahmah, ugi dipun paringi keturunan ingkang sholeh lan solehah. Ojo lali dangdut denny caknan'e.`,
+    image: usamah,
   },
   {
-    name: 'Zakiy Anwar Fahri',
-    infoName: 'Sahabat Ridwan & Dewi',
-    description: `Hai Indra & Dinda, sebelum nya aku ucapin selamat akhirnya mencapai pernikahan. Semoga pernikahannya lancar dan menjadi keluarga sakinah mawahdah warahmah. Sebagai sahabat mu sejak awal kuliah kita berjuang bersama dan akhirnya sampai titik ini aku seneng banget kamu bisa menggapai cita-cita mu pelan-pelan, setelah ini kamu akan memulai perjalan dengan seorang yang akan lebih setia dari Sahabat yaitu Istri (Dinda), tetep sabar dan setia ya Ndra. Nahh, untuk Dinda bantu sahabat ku semakin baik ya hehe. :D`,
-    image: Zakiy,
+    name: 'Hesti Kusumandaru',
+    infoName: 'Sahabat SMA N 1 Prambanan',
+    description: `Barakallahu laka wabaaraka alaikuma wajama bainakum fi khair.. Selamat mengarungi bahtera rumah tangga Ridwan & Dewi Semoga kalian selalu dalam perlindungan Allah SWT dan di berkahi rejeki berlimpahh.. Aamin.`,
+    image: hesti,
   },
   {
-    name: 'Risalatul Muawanah',
-    infoName: 'Sahabat SMP Dinda',
-    description: `"Hey Din!  Finally ..... Happy Wedding!  Hopefully become a family that Sakinah Mawaddah Warohmah until HIS heaven later! 
+    name: 'Danang',
+    infoName: 'Teman Desa',
+    description: `"Hey Ridwan!  Finally ..... Happy Wedding!  Hopefully become a family that Sakinah Mawaddah Warohmah until HIS heaven later! 
     Become a blessed family and always be happy!  May your dreams always be achieved!  Always complement and support each other! 
     I will wait for 5 children yea! Hihi 😅😅😘"`,
-    image: risa,
+    image: danang,
   },
   {
     name: 'Moleta Tiara Mahayanti',
@@ -62,7 +61,7 @@ export const wishlist = [
     Setelah ini hal yang kalian impikan akan terwujud 
     Terus menjadi pasangan yang dapat menginspirasi semua orang Dinda dan Mas indra dan tetaplah menjadi pribadi yang rendah hati❤ 
     Dari aku Moleta Sahabatmu 🤎"`,
-    image: Moletta,
+    // image: Moletta,
   },
   {
     name: 'Hapsari Anggraini',
