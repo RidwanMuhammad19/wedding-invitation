@@ -29,7 +29,7 @@ function HelloSection({ type }) {
               <div className="desc-groom">
                 <h3 className="main-font">Muhammad Ridwan, S.Kom.</h3>
                 <p className="parent-name parent-name__top">
-                  Putra Pertama Bapak H Suroyo <br />& Ibu Hj Solikhah Sri Lestari
+                  Putra Kedua Bapak H Suroyo <br />& Ibu Hj Solikhah Sri Lestari
                 </p>
               </div>
             </div>
