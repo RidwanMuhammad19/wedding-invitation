@@ -4,10 +4,11 @@ import WeddingImg from '@assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
 import { styWrapper, styHero, styBackground } from './styles';
+import CountContainerResepsi from './CountContainerResepsi';
 
 const DELAY_TIME = 1500;
 
-function WelcomeSection({ guestName, partner, isAnonymGuest, onClickDetail }) {
+function WelcomeSection({ guestName, type, partner, isAnonymGuest, onClickDetail }) {
   const [loading, setLoading] = useState(false);
   const [alreadyDownloadData, setAlreadyDownloadData] = useState(false);
 
@@ -66,11 +67,11 @@ function WelcomeSection({ guestName, partner, isAnonymGuest, onClickDetail }) {
         <div className="container">
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
-              <img src={WeddingImg} alt="wedding-ridwan-candra" />
+              <img src={WeddingImg} alt="wedding-ridwan-dewi" />
               <h4 className="sub-title">The Wedding of</h4>
               <h1 className="title">Ridwan &amp; Dewi</h1>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
-                <CountContainer />
+                {type === '18' ? <CountContainerResepsi /> : <CountContainer />}
               </div>
               {renderGuestSection()}
             </div>

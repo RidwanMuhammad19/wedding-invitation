@@ -10,7 +10,7 @@ import WelcomeSection from '@components/WelcomeSection';
 import HelloSection from '@components/HelloSection';
 import WeddingSection from '@components/WeddingSection';
 import LocationSection from '@components/LocationSection';
-import StorySection from '@components/StorySection';
+// import StorySection from '@components/StorySection';
 import WishesSection from '@components/WishesSection';
 import FooterSection from '@components/FooterSection';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
@@ -47,6 +47,7 @@ function Home({ location }) {
       <WelcomeSection
         guestName={to}
         partner={partner}
+        type={type}
         isAnonymGuest={isAnonymGuest}
         location={location}
         onClickDetail={handleClickDetail}
