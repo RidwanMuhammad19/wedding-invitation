@@ -71,7 +71,11 @@ function WelcomeSection({ guestName, type, partner, isAnonymGuest, onClickDetail
               <h4 className="sub-title">The Wedding of</h4>
               <h1 className="title">Ridwan &amp; Dewi</h1>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
-                {type === '18' ? <CountContainerResepsi /> : <CountContainer />}
+                {/* {type === '18' ? <CountContainerResepsi /> : <CountContainer />} */}
+                <span className="sub-title sub-title__wedding">Resepsi</span>
+                <CountContainerResepsi />
+                <span className="sub-title sub-title__wedding">Unduh Mantu</span>
+                <CountContainer />
               </div>
               {renderGuestSection()}
             </div>

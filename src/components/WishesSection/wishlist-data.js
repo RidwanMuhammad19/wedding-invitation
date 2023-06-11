@@ -9,7 +9,8 @@ export const wishlist = [
   {
     name: 'Doni Kharisna Putra',
     infoName: 'Duet RT 15',
-    description: `selamat menempuh hidup baru dinda dan mas indra semoga menjadi pasangan teman hidup selamanya sesurga, enjoy your little family always be happy my sweet couple!🥰🤗 amin`,
+    description: `Barakallahu laka wa baarakaa 'alaika wa jama'a bainakuma fii khoir 
+    Selamat menempuh hidup baru Muhammad Ridwan dan Andhika Invari Candra Dewi. Semoga bisa saling melengkapi satu sama lain dan menjadi keluarga yang sakinah mawaddah warahmah. Aamiin`,
     image: Doni,
   },
   {
@@ -41,7 +42,7 @@ export const wishlist = [
   {
     name: 'Indah Miftahul Jannah',
     infoName: 'Kakak Kandung',
-    description: `"Untuk Ridwan dan Dewi, semoga lancar ya acara pernikahannya dan senantiasa aman dan kondusif meski keadaan seperti ini. 
+    description: `"Untuk Ridwan dan Dewi, semoga lancar ya acara pernikahannya. 
     Pokoknya saya doain yg terbaik untuk kalian berdua, mulai dari hari h acara sampai seterusnya.
     Semoga jadi keluarga yg sakinah, mawadah, warahmah ya. Amiin.
     Selamat berbahagia, Ridwan & Dewi!"`,
