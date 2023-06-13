@@ -77,7 +77,7 @@ function WelcomeSection({ guestName, type, partner, isAnonymGuest, onClickDetail
                   <>
                     <span className="sub-title sub-title__wedding">Resepsi </span>
                     <CountContainerResepsi />
-                    <span className="sub-title sub-title__wedding">dan Unduh Mantu</span>
+                    <span className="sub-title sub-title__wedding">dan Ngunduh Mantu</span>
                     <CountContainer />
                   </>
                 )}

@@ -14,7 +14,7 @@ function WeddingSection({ type }) {
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
               <h2 className="main-font main-font__wedding">
-                {type === '18' ? 'Resepsi' : type === '25' ? 'Unduh Mantu' : 'Resepsi dan Unduh Mantu'}
+                {type === '18' ? 'Resepsi' : type === '25' ? 'Ngunduh Mantu' : 'Resepsi dan Ngunduh Mantu'}
               </h2>
               <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
             </div>
@@ -29,7 +29,7 @@ function WeddingSection({ type }) {
                   description="Rumah Mempelai <br/>Mustika Jaya, Kota Bekasi"
                 />
                 <WeddingInfoBox
-                  title="Unduh Mantu"
+                  title="Ngunduh Mantu"
                   time="09:00 WIB"
                   date="Minggu, 25 Juni 2023"
                   description="Gedung Balai Desa Kraguman <br/>Jogonalan , Klaten"
@@ -49,7 +49,7 @@ function WeddingSection({ type }) {
             {type === '25' && (
               <div className="col-md-8 col-md-offset-4">
                 <WeddingInfoBox
-                  title="Unduh Mantu"
+                  title="Ngunduh Mantu"
                   time="09:00 WIB"
                   date="Minggu, 25 Juni 2023"
                   description="Gedung Balai Desa Kraguman <br/>Jogonalan , Klaten"

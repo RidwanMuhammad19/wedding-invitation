@@ -4,6 +4,7 @@ import hesti from '@assets/images/w-hesti.jpg';
 import danang from '@assets/images/w-danang.jpg';
 import abel from '@assets/images/w-abel.jpg';
 import indah from '@assets/images/w-indah.jpg';
+import lia from '@assets/image/w-lia.jpg';
 
 export const wishlist = [
   {
@@ -48,5 +49,10 @@ export const wishlist = [
     Selamat berbahagia, Ridwan & Dewi!"`,
     image: indah,
   },
+  {
+    name: 'Lia Prasetya',
+    infoName: 'Rekan Kerja Sandbox Indonesia Juara',
+    description: `Happy wedding Ridwan and Dika, semoga sakinah till jannah, punya lemah, sawah dan omah, putra - putri yang shalih shalihah. Salam solidaritas!!!`,
+    image: lia,
+  },
 ];
-  

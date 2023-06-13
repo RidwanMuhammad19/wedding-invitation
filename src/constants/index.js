@@ -23,7 +23,7 @@ export const WeddingEvent = [
   },
   {
     type: '25',
-    title: 'Unduh Mantu',
+    title: 'Ngunduh Mantu',
     time: '09:00 WIB',
     date: 'Minggu, 25 Juni 2023',
   },
